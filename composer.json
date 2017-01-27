@@ -1,0 +1,15 @@
+{
+    "name": "bonndan/phpenums",
+    "description": "An experimental Enum implementation for PHP7",
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        }
+    },
+    "require": {
+        "php": "7"
+    },
+    "autoload": {
+        "psr-4": {"Pava\\": "src/Pava/"}
+    }
+}
