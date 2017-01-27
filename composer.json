@@ -6,6 +6,7 @@
             "*": "dist"
         }
     },
+    "version" : "0.1.0",
     "require": {
         "php": "^7"
     },
