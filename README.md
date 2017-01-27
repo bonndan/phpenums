@@ -1,5 +1,8 @@
 # PHP Enums
 
+[![Build Status](https://travis-ci.org/bonndan/phpenums.svg?branch=master)](https://travis-ci.org/bonndan/phpenums)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.0-8892BF.svg)](https://php.net/)
+
 Yet another implementation of Enums in PHP. The difference to most other implementations is that the
 implemetation is very close to Java. Static properties are used, but like in Java they are real
 instances of the Enum providing all methods etc:
