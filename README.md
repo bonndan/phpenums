@@ -86,9 +86,9 @@ class Fruit extends \Pava\Enum
     public function __invoke()
     {
         if ($this->name() == 'BANANA')
-            $this->color = 'yellow;
+            $this->color = 'yellow';
         if ($this->name() == 'APPLE')
-            $this->color = 'green;
+            $this->color = 'green';
     }
 }
 Pava\register(Fruit::class);
